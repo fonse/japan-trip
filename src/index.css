@@ -18,6 +18,11 @@ body {
   margin: auto;
 }
 
+.card-img {
+  background-size: cover;
+  background-position: center;
+}
+
 .blog-card {
 	width: 100%;
 	position: relative;
@@ -28,27 +33,6 @@ body {
 	text-align: center;
   background-size: cover;
   background-position: center;
-}
-
-.blog-card .color-overlay {
-	background: rgba(0, 0, 0, 0.2);
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	z-index: 10;
-	top: 0;
-	left: 0;
-	transition: background 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
-}
-
-.blog-card .gradient-overlay {
-	background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.4) 66%);
-  width: 100%;
-	height: 20%;
-	position: absolute;
-	left: 0;
-  bottom:0;
-	z-index: 15;
 }
 
 .date {

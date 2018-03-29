@@ -71,7 +71,7 @@ class Card extends Component {
   render() {
     return (
       <div className="blog-card">
-        <div  style={ {backgroundImage: `url(${this.props.image})`} }>
+        <div className="card-img" style={ {backgroundImage: `url(${this.props.image})`} }>
             <div className="date">{this.props.date}</div>
             <div className="title-content">
                 <h3>{this.props.title}</h3>
@@ -90,9 +90,9 @@ class Card extends Component {
               </div>
             </div>
         </div>
-        
+
       </div>
-      
+
     )
   }
 }
