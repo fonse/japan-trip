@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import img_shinjuku from './img/shinjuku.jpg';
+import img_shibuya from './img/shibuya.jpg';
+import img_akiba from './img/akiba.jpg';
+import img_yanesen from './img/yanesen.jpg';
 
 class App extends Component {
   render() {
@@ -11,7 +14,7 @@ class App extends Component {
         "highlights": ["Shinjuku"],
         "lunch": null,
         "dinner": "Golden Gai",
-        "image": process.env.PUBLIC_URL + "/img/shinjuku.jpg"
+        "image": img_shinjuku
       },
       {
         "date": "Apr 03",
@@ -19,7 +22,7 @@ class App extends Component {
         "highlights": ["Harajuku","Yoyogi Park","Shibuya"],
         "lunch": "Ichiran",
         "dinner": "Uobei Sushi",
-        "image": process.env.PUBLIC_URL + "/img/shibuya.jpg"
+        "image": img_shibuya
       },
       {
         "date": "Apr 04",
@@ -27,7 +30,7 @@ class App extends Component {
         "highlights": ["Asakusa", "Akihabara", "Ikebukuro"],
         "lunch": "Hoppy Street",
         "dinner": "Namja Town",
-        "image": process.env.PUBLIC_URL + "/img/akiba.jpg"
+        "image": img_akiba
       },
       {
         "date": "Apr 05",
@@ -35,7 +38,7 @@ class App extends Component {
         "highlights": ["Tsukiji Market", "Yanesen", "Nakano", "Sangenjaya"],
         "lunch": "Yanesen",
         "dinner": "Sangenjaya",
-        "image": process.env.PUBLIC_URL + "/img/yanesen.jpg"
+        "image": img_yanesen
       }
     ]
 
