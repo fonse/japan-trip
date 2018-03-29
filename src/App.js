@@ -4,6 +4,11 @@ import img_shinjuku from './img/shinjuku.jpg';
 import img_shibuya from './img/shibuya.jpg';
 import img_akiba from './img/akiba.jpg';
 import img_yanesen from './img/yanesen.jpg';
+import img_kanazawa from './img/kanazawa.jpg';
+import img_kyoto1 from './img/kyoto1.jpg';
+import img_kyoto2 from './img/kyoto2.jpg';
+import img_nara from './img/nara.jpg';
+import img_yoshinoyama from './img/yoshinoyama.jpg';
 
 class App extends Component {
   render() {
@@ -36,10 +41,50 @@ class App extends Component {
         "date": "Apr 05",
         "title": "Tokyo #3",
         "highlights": ["Tsukiji Market", "Yanesen", "Nakano", "Sangenjaya"],
-        "lunch": "Yanesen",
+        "lunch": "Street Food",
         "dinner": "Sangenjaya",
         "image": img_yanesen
-      }
+      },
+      {
+        "date": "Apr 06",
+        "title": "Kanazawa",
+        "highlights": ["Kenrokuen", "Omicho Market", "Higashi Chaya District", "Trip to Osaka"],
+        "lunch": null,
+        "dinner": "Dotonbori",
+        "image": img_kanazawa
+      },
+      {
+        "date": "Apr 07",
+        "title": "Kyoto #1",
+        "highlights": ["Kiyomizudera", "Higashiyama", "Gion", "Nanzenji", "Philosopher's Path", "Kinkakuji"],
+        "lunch": null,
+        "dinner": "Shabutei",
+        "image": img_kyoto1
+      },
+      {
+        "date": "Apr 08",
+        "title": "Kyoto #2",
+        "highlights": ["Fushimi Inari", "Nijo Castle", "Arashiyama"],
+        "lunch": "Fire Ramen",
+        "dinner": "Alice in Fantasyland",
+        "image": img_kyoto2
+      },
+      {
+        "date": "Apr 09",
+        "title": "Nara",
+        "highlights": ["Tsukiji Market", "Yanesen", "Nakano", "Sangenjaya"],
+        "lunch": "Street Food",
+        "dinner": "Sangenjaya",
+        "image": img_nara
+      },
+      {
+        "date": "Apr 10",
+        "title": "Yoshinoyama",
+        "highlights": ["Yoshinoyama", "Mt. Koya"],
+        "lunch": null,
+        "dinner": null,
+        "image": img_yoshinoyama
+      },
     ]
 
     return (
