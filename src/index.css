@@ -22,17 +22,13 @@ body {
 	width: 100%;
 	min-height: 350px;
 	position: relative;
-	margin: 20px auto 40px;
+	margin: 20px auto;
 	overflow: hidden;
 	border-radius: 10px;
 	box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
 	text-align: center;
   background-size: cover;
   background-position: center;
-}
-
-.blog-card:last-child{
-  margin-bottom:20px;
 }
 
 .blog-card .color-overlay {
@@ -84,7 +80,7 @@ h3 {
 	font-size: 34px;
 	font-weight: 500;
 	letter-spacing: 2px;
-	color: #9CC9E3;
+	color: #4DBECF;
 	font-family: 'Roboto', sans-serif;
 	margin-bottom: 0;
 }
