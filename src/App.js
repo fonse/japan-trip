@@ -70,26 +70,29 @@ class CardList extends Component {
 class Card extends Component {
   render() {
     return (
-      <div className="blog-card" style={ {backgroundImage: `url(${this.props.image})`} }>
-        <div className="date">{this.props.date}</div>
-        <div className="title-content">
-          <h3>{this.props.title}</h3>
-          <div className="intro">{this.props.highlights.map(location => <div>{location}</div>)}</div>
+      <div className="blog-card">
+        <div  style={ {backgroundImage: `url(${this.props.image})`} }>
+            <div className="date">{this.props.date}</div>
+            <div className="title-content">
+                <h3>{this.props.title}</h3>
+            </div>
         </div>
-        <div className="food-container">
-          <div className="food">
-            { this.props.lunch && <div className="food-title">Lunch</div> }
-            <div>{this.props.lunch}</div>
-          </div>
-          <div className="food">
-            { this.props.dinner && <div className="food-title">Dinner</div> }
-            <div>{this.props.dinner}</div>
-          </div>
+        <div className="info-card">
+            <div className="intro">{this.props.highlights.map(location => <div>{location}</div>)}</div>
+            <div className="food-container">
+              <div className="food">
+                { this.props.lunch && <div className="food-title">Lunch</div> }
+                <div>{this.props.lunch}</div>
+              </div>
+              <div className="food">
+                { this.props.dinner && <div className="food-title">Dinner</div> }
+                <div>{this.props.dinner}</div>
+              </div>
+            </div>
         </div>
-
-        <div className="gradient-overlay"></div>
-        <div className="color-overlay"></div>
+        
       </div>
+      
     )
   }
 }
