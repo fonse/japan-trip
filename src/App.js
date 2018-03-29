@@ -78,7 +78,7 @@ class App extends Component {
       {
         "date": "Apr 09",
         "title": "Nara",
-        "highlights": ["Tsukiji Market", "Yanesen", "Nakano", "Sangenjaya"],
+        "highlights": ["Nara Park", "Naramachi", "Pendings in Osaka"],
         "lunch": null,
         "dinner": "Okonomiyaki",
         "image": img_nara
