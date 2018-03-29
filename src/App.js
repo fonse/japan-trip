@@ -178,16 +178,8 @@ class Card extends Component {
         </div>
         <div className="info-card">
             <div className="intro">{this.props.highlights.map(location => <div>{location}</div>)}</div>
-            <div className="food-container">
-              <div className="food">
-                { this.props.lunch && <div className="food-title">Lunch</div> }
-                <div>{this.props.lunch}</div>
-              </div>
-              <div className="food">
-                { this.props.dinner && <div className="food-title">Dinner</div> }
-                <div>{this.props.dinner}</div>
-              </div>
-            </div>
+            { (this.props.lunch || this.props.dinner) &&
+              <CardFooter lunch={this.props.lunch} dinner={this.props.dinner} /> }
         </div>
 
       </div>
@@ -195,5 +187,23 @@ class Card extends Component {
     )
   }
 }
+
+class CardFooter extends Component {
+  render() {
+    return (
+      <div className="food-container">
+        <div className="food">
+          { this.props.lunch && <div className="food-title">Lunch</div> }
+          <div>{this.props.lunch}</div>
+        </div>
+        <div className="food">
+          { this.props.dinner && <div className="food-title">Dinner</div> }
+          <div>{this.props.dinner}</div>
+        </div>
+      </div>
+    )
+  }
+}
+
 
 export default App;
