@@ -11,7 +11,7 @@ class App extends Component {
         "highlights": ["Shinjuku"],
         "lunch": null,
         "dinner": "Golden Gai",
-        "image": "/img/shinjuku.jpg"
+        "image": process.env.PUBLIC_URL + "/img/shinjuku.jpg"
       },
       {
         "date": "Apr 03",
@@ -19,7 +19,7 @@ class App extends Component {
         "highlights": ["Harajuku","Yoyogi Park","Shibuya"],
         "lunch": "Ichiran",
         "dinner": "Uobei Sushi",
-        "image": "/img/shibuya.jpg"
+        "image": process.env.PUBLIC_URL + "/img/shibuya.jpg"
       },
       {
         "date": "Apr 04",
@@ -27,7 +27,7 @@ class App extends Component {
         "highlights": ["Asakusa", "Akihabara", "Ikebukuro"],
         "lunch": "Hoppy Street",
         "dinner": "Namja Town",
-        "image": "/img/akiba.jpg"
+        "image": process.env.PUBLIC_URL + "/img/akiba.jpg"
       },
       {
         "date": "Apr 05",
@@ -35,7 +35,7 @@ class App extends Component {
         "highlights": ["Tsukiji Market", "Yanesen", "Nakano", "Sangenjaya"],
         "lunch": "Yanesen",
         "dinner": "Sangenjaya",
-        "image": "/img/yanesen.jpg"
+        "image": process.env.PUBLIC_URL + "/img/yanesen.jpg"
       }
     ]
 
