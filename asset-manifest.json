@@ -1,10 +1,21 @@
 {
-  "main.css": "static/css/main.a95066b5.css",
-  "main.css.map": "static/css/main.a95066b5.css.map",
-  "main.js": "static/js/main.383658ec.js",
-  "main.js.map": "static/js/main.383658ec.js.map",
+  "main.css": "static/css/main.428532df.css",
+  "main.css.map": "static/css/main.428532df.css.map",
+  "main.js": "static/js/main.5fe2f024.js",
+  "main.js.map": "static/js/main.5fe2f024.js.map",
   "static/media/akiba.jpg": "static/media/akiba.1eb15381.jpg",
+  "static/media/fuji.jpg": "static/media/fuji.cf2abbb8.jpg",
+  "static/media/fukuoka.jpg": "static/media/fukuoka.da1c6e27.jpg",
+  "static/media/hiroshima.jpg": "static/media/hiroshima.eb4090e5.jpg",
+  "static/media/kanazawa.jpg": "static/media/kanazawa.8250924e.jpg",
+  "static/media/kyoto1.jpg": "static/media/kyoto1.2748ae75.jpg",
+  "static/media/kyoto2.jpg": "static/media/kyoto2.b8745674.jpg",
+  "static/media/miyajima.jpg": "static/media/miyajima.773f8b3c.jpg",
+  "static/media/nara.jpg": "static/media/nara.1c529241.jpg",
   "static/media/shibuya.jpg": "static/media/shibuya.7b3be71b.jpg",
-  "static/media/shinjuku.jpg": "static/media/shinjuku.a9c470f5.jpg",
-  "static/media/yanesen.jpg": "static/media/yanesen.19f084ae.jpg"
+  "static/media/shinjuku.jpg": "static/media/shinjuku.2c16f7bd.jpg",
+  "static/media/shinkansen.jpg": "static/media/shinkansen.8f72fdc3.jpg",
+  "static/media/tokyo4.jpg": "static/media/tokyo4.dd8cf042.jpg",
+  "static/media/yanesen.jpg": "static/media/yanesen.19f084ae.jpg",
+  "static/media/yoshinoyama.jpg": "static/media/yoshinoyama.03289931.jpg"
 }
