@@ -62,8 +62,8 @@ class App extends Component {
       {
         "date": "Apr 07",
         "title": "Kyoto #1",
-        "highlights": ["Higashiyama", "Gion", "Philosopher's Path", "Kinkakuji"],
-        "lunch": "Hachidaime Gihey",
+        "highlights": ["Kinkakuji", "Philosopher's Path", "Gion", "Higashiyama", "Kiyomizudera"],
+        "lunch": null,
         "dinner": "Shabutei",
         "image": img_kyoto1
       },

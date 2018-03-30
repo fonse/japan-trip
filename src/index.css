@@ -18,6 +18,12 @@ body {
   margin: auto;
 }
 
+@media (min-width: 500px) {
+  .cardlist {
+    max-width: 400px;
+  }
+}
+
 .card-img {
   background-size: cover;
   background-position: center;
